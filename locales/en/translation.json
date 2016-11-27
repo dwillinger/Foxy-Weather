@@ -1,0 +1,50 @@
+{
+  "app": {
+    "name": "Foxy Weather"
+  },
+  "info": {
+    "MON": "MON",
+    "TUE": "TUE",
+    "WED": "WED",
+    "THU": "THU",
+    "FRI": "FRI",
+    "SAT": "SAT",
+    "SUN": "SUN",
+  	"northEast": 	"from the NorthEast",
+  	"east": 		"from the East",
+  	"southEast": 	"from the SouthEast",
+  	"south": 		"from the South",
+  	"southWest": 	"from the SouthWest",
+  	"west": 		"from the West",
+  	"northWest": 	"from the NorthWest",
+  	"north": 		"from the North",
+  	
+  	"calm": 			"Calm",
+  	"lightAir": 		"Light air",
+  	"lightBreeze": 		"Light breeze",
+  	"gentleBreeze": 	"Gentle breeze",
+  	"moderateBreeze": 	"Moderate breeze",
+  	"freshBreeze": 		"Fresh breeze",
+  	"strongBreeze": 	"Strong breeze",
+  	"moderateGale": 	"Moderate gale",
+  	"freshGale": 		"Fresh gale",
+  	"strongGale": 		"Strong gale",
+  	"storm": 			"Storm",
+  	"hurricane": 		"Hurricane"
+	
+  },
+  "settings": {
+    "headline": 		"Settings",
+    "getWeatherButton": "Get Weather",
+    "getCurrentLocation": "Use current location",
+	
+    "errorMsg": 		"The town or city you requested could not be found. Please try another one.",
+    "units": 			"Unit",
+    "languageSettings": "Language",
+    "unitsMetric": 		"Celsius",
+    "unitsImperial": 	"Fahrenheit",
+    "backgroundLocation": "Photo from location",
+    "backgroundBlank": 	"No background photo",
+    "background": 		"Background"
+  }
+}

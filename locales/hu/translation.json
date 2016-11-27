@@ -1,0 +1,50 @@
+{
+  "app": {
+    "name": "Foxy Weather"
+  },
+  "info": {
+    "MON": "Hétfő",
+    "TUE": "Kedd",
+    "WED": "Szerda",
+    "THU": "Csütörtök",
+    "FRI": "Péntek",
+    "SAT": "Szombat",
+    "SUN": "Vasárnap",
+	"northEast": 	"az északkelet",
+	"east": 		"a keleti",
+	"southEast": 	"a délkeleti",
+	"south": 		"a dél",
+	"southWest": 	"a délnyugati",
+	"west": 		"Nyugatról",
+	"northWest": 	"északnyugatról",
+	"north": 		"az Északi",
+	
+	"calm": 			"Nyugodt",
+	"lightAir": 		"Leheletszerü",
+	"lightBreeze": 		"Könnyű szellő",
+	"gentleBreeze": 	"Gyengéd szellő",
+	"moderateBreeze": 	"Mérsékelt szél",
+	"freshBreeze": 		"Friss szellő",
+	"strongBreeze": 	"Erős szél",
+	"moderateGale": 	"Mérsékelt Gale",
+	"freshGale": 		"Friss Gale",
+	"strongGale": 		"Erős vihar",
+	"storm": 			"Vihar",
+	"hurricane": 		"Hurrikán"
+	
+  },
+  "settings": {
+    "headline": 		"Beállítások",
+    "getWeatherButton": "Get Időjárás",
+    "getCurrentLocation": "Jelenlegi hely használata",
+	
+    "errorMsg": 		"A várost kért nem található. Kérjük, próbálkozzon egy másik.",
+    "units": 			"Egység",
+    "languageSettings": "Nyelv",
+    "unitsMetric": 		"Celsius",
+    "unitsImperial": 	"Fahrenheit",
+    "backgroundLocation": "Fotó helyre",
+    "backgroundBlank": 	"No háttér fotó",
+    "background": 		"Háttér"
+  }
+}

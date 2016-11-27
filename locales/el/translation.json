@@ -1,0 +1,50 @@
+{
+  "app": {
+    "name": "Foxy Weather"
+  },
+  "info": {
+    "MON": "Δευτέρα",
+    "TUE": "Τρίτη",
+    "WED": "Τετάρτη",
+    "THU": "Πέμπτη",
+    "FRI": "Παρασκευή",
+    "SAT": "Σάββατο",
+    "SUN": "Κυριακή",
+	"northEast": 	"από τα βορειοανατολικά",
+	"east": 		"από την Ανατολή",
+	"southEast": 	"από τη Νοτιοανατολική",
+	"south": 		"από το Νότο",
+	"southWest": 	"Νοτιοδυτικά από την",
+	"west": 		"από τη Δύση",
+	"northWest": 	"από τα βορειοδυτικά",
+	"north": 		"από το Βορρά",
+	
+	"calm": 			"ηρεμία",
+	"lightAir": 		"Απνοια",
+	"lightBreeze": 		"ελαφρύ αεράκι",
+	"gentleBreeze": 	"απαλό αεράκι",
+	"moderateBreeze": 	"μέτριος",
+	"freshBreeze": 		"φρέσκο ​​αεράκι",
+	"strongBreeze": 	"ισχυρός άνεμος",
+	"moderateGale": 	"μέτρια θύελλα",
+	"freshGale": 		"φρέσκα θύελλα",
+	"strongGale": 		"ισχυρή θύελλα",
+	"storm": 			"καταιγίδα",
+	"hurricane": 		"τυφώνας"
+	
+  },
+  "settings": {
+    "headline": 		"ρυθμίσεις",
+    "getWeatherButton": "Πάρτε Καιρός",
+    "getCurrentLocation": "Χρησιμοποιήστε την τρέχουσα τοποθεσία",
+	
+    "errorMsg": 		"Η πόλη ή την πόλη που ζητήσατε δεν μπορεί να βρεθεί. Παρακαλώ δοκιμάστε ένα άλλο.",
+    "units": 			"μονάδα",
+    "languageSettings": "γλώσσα",
+    "unitsMetric": 		"Κελσίου",
+    "unitsImperial": 	"Φαρενάιτ",
+    "backgroundLocation": "Φωτογραφία από τη θέση",
+    "backgroundBlank": 	"Δεν υπάρχει ιστορικό",
+    "background": 		"φόντο"
+  }
+}

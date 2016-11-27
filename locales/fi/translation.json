@@ -1,0 +1,53 @@
+{
+  "app": {
+    "name": "Foxy Weather"
+  },
+  "info": {
+    "MON": "MA",
+    "TUE": "TI",
+    "WED": "KE",
+    "THU": "TO",
+    "FRI": "PE",
+    "SAT": "LA",
+    "SUN": "SU",
+	
+	"calm": 			"tuuli",
+	"lightAir": 		"vaisto",
+	"lightBreeze": 		"tuulen",
+	"gentleBreeze": 	"lempeä tuuli",
+	"moderateBreeze": 	"kova tuuli",
+	"freshBreeze": 		"raikkaan",
+	"strongBreeze": 	"Voimakas tuuli",
+	"moderateGale": 	"Vahva myrskynpuuskan",
+	"freshGale": 		"myrsky",
+	"strongGale": 		"pyörremyrsky",
+	"storm": 			"myräkkä",
+	"hurricane": 		"hurrikaani",
+	
+	"northEast": 	"- koilliseen",
+	"east": 		"- itään",
+	"southEast": 	"- kaakkoon",
+	"south": 		"- etelä",
+	"southWest": 	"- lounaaseen",
+	"west": 		"- länsi",
+	"northWest": 	"- luoteeseen",
+	"north": 		"- pohjoiseen"
+	
+  },
+  
+  "settings": {
+    "headline": 		"Asetukset",
+    "getWeatherButton": "Haku päällä",
+    "getCurrentLocation": "Käytä nykyistä sijaintia",
+	
+    "errorMsg": 		"Postitoimipaikka Hakemaasi ei löytynyt. Ole hyvä ja kokeile toista.",
+    "units": 			"Yksikkö",
+    "languageSettings": "Kieli",
+    "unitsMetric": 		"Celsius",
+    "unitsImperial": 	"Fahrenheit",
+    "backgroundLocation": "Valokuva paikasta",
+    "backgroundBlank": 	"Ei taustakuvan",
+    "background": 		"Valitse tausta"
+  }
+  
+}

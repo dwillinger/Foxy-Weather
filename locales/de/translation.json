@@ -1,0 +1,56 @@
+{
+  "app": {
+    "name": "Foxy Weather"
+  },
+  "info": {
+    "MON": "MO",
+    "TUE": "DI",
+    "WED": "MI",
+    "THU": "DO",
+    "FRI": "FR",
+    "SAT": "SA",
+    "SUN": "SO",
+	
+	"calm": 			"Windstille",
+	"lightAir": 		"Geringer Wind",
+	"lightBreeze": 		"Leichter Wind",
+	"gentleBreeze": 	"Schwacher Wind",
+	"moderateBreeze": 	"Mäßiger Wind",
+	"freshBreeze": 		"Frischer Wind",
+	"strongBreeze": 	"Starker Wind",
+	"moderateGale": 	"Starker bis stürmischer Wind",
+	"freshGale": 		"Stürmischer Wind",
+	"strongGale": 		"Sturmwind",
+	"storm": 			"Schwerer Sturmwind",
+	"hurricane": 		"Orkanartige Winde",
+	
+	"northEast": 	"aus Nordost",
+	"east": 		"aus Ost",
+	"southEast": 	"aus Südost",
+	"south": 		"aus Süd",
+	"southWest": 	"aus Südwest",
+	"west": 		"aus West",
+	"northWest": 	"aus Nordwest",
+	"north": 		"aus Nord"
+	
+  },
+  
+  "settings": {
+    "headline": 		"Einstellungen",
+    "getWeatherButton": "Ort suchen",
+    "getCurrentLocation": "Aktuellen Standort verwenden",
+	
+    "errorMsg": 		"Der Ort, den Sie gesucht haben, konnte nicht gefunden werden. Bitte probieren Sie es mit einem anderen.",
+    "units": 			"Einheiten",
+    "languageSettings": "Sprache",
+    "unitsMetric": 		"Celsius",
+    "unitsImperial": 	"Fahrenheit",
+    "backgroundLocation": "Zufallsbild vom Ort",
+    "backgroundBlank": 	"Ohne Hintergrundbild",
+    "background": 		"Hintergrund"
+	
+	
+	
+  }
+  
+}

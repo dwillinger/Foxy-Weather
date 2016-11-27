@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/headers.css">
+    <link rel="stylesheet" type="text/css" href="css/buttons.css">
+    <link rel="stylesheet" type="text/css" href="css/toolbars.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/settingspage.css">
+	<link href="css/input_areas.css" rel="stylesheet" type="text/css">
+	<link href="css/headers.css" rel="stylesheet" type="text/css">
+	<link href="css/confirm.css" rel="stylesheet" type="text/css">
+    <title>Firefox OS Boilerplate App</title>
+</head>
+
+<body>
+
+    <section role="region">
+        <header>
+            <a href="index.html"><button><span class="icon icon-back">back</span></button></a>
+
+            <h1 data-i18n="settings.headline">Foxy Weather Settings</h1>
+			
+        </header>
+    </section>
+
+
+    <div id="main">
+	
+		<!--button id="getLocation">Get Current Location</button-->
+		
+		<div id="preferences"></div>
+		<p><div style="font-size:18px;color:red;display:none;" id="errorMsg" data-i18n="settings.errorMsg"></div></p>
+		
+		<form>
+			<input type="text" placeholder="" required="" id="newLocation" data-i18n="settings.placeholder" style="width:98%;" />
+			<button style="margin-top:12px;" id="addNewLocation" data-i18n="settings.getWeatherButton">Get Weather</button>
+			<!--button style="margin-bottom:2em;" id="getLocation" data-i18n="settings.getCurrentLocation">Get Weather</button>
+			<div id="locationFeedback"></div-->
+			
+			<h3 class="bb-docs" data-i18n="settings.languageSettings">Fieldset</h3>
+			<select class="settingsSelect" id="selectLanguage">
+			  <option value="de">deutsch</option>
+			  <option value="el">ελληνικά</option>
+			  <option value="en">english</option>
+			  <option value="es">español</option>
+			  <option value="fr">français</option>
+			  <option value="hi">हिंदी</option>
+			  <option value="it">italiano</option>
+			  <option value="hu">magyar</option>
+			  <option value="pl">polski</option>
+			  <option value="pt">português</option>
+			  <option value="fi">suomalainen</option>
+			  <option value="zh_cn">中文简体</option>
+			  <option value="zh_tw">中国传统</option>
+			</select>		
+			
+			<h3 class="bb-docs" data-i18n="settings.units"></h3>
+			<select class="settingsSelect" id="selectUnits">
+			  <option value="metric" data-i18n="settings.unitsMetric">metric</option>
+			  <option value="imperial" data-i18n="settings.unitsImperial">imperial</option>
+			</select>		
+			
+			<h3 class="bb-docs" data-i18n="settings.background"></h3>
+			<select class="settingsSelect" id="selectBackground">
+			  <option value="locationPicture" data-i18n="settings.backgroundLocation">Photo from location</option>
+			  <option value="blank" data-i18n="settings.backgroundBlank">Blank background</option>
+			</select>
+			
+		</form>
+
+		<div style="height: 2em;"></div>
+		<a href="about.html"><button>About</button></a>
+		
+	</div>
+
+
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/webapp.js"></script>
+    <script type="text/javascript" src="js/offline.js"></script>
+    <script type="text/javascript" src="js/languages.js"></script>
+	<script type="text/javascript" src="http://www.panoramio.com/wapi/wapi.js?v=1&amp;hl=de"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/i18next-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/settingsFunctions.js"></script>
+
+</body>
+</html>

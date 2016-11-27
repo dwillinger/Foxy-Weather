@@ -1,0 +1,19 @@
+1.1.2:
+- Updated ONE link with target="_blank" attribute on about-page
+
+1.1.1:
+- Translation adopted so that the select text on the settings page for "photo from location" does not destroy the layout
+- Removed "Foxy Weather" from header on Settings page, so only "Settings" is shown
+- Bug fix: spanish could not be set on settings page (used "sp" instead of "es")
+
+1.1.0: 
+- Bug removed: all forecasts are shown correctly
+- Design adjustments on presentation page
+- Flat Design like in Firefox OS 1.3 applied
+- Design Changes on settings page
+- Event Listener for "Enter" at input field for searching a town
+- Renamed Metrics to "Celsius" and "Fahrenheit" for the sake of simplicity
+- Position of loading animation was adjusted (centered)
+- removed serveral unused files (htmls in css folder, fonts, etc.)
+- Random picture from panaramio
+- greek, hungarian and hindi as translations added

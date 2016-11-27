@@ -1,0 +1,53 @@
+{
+  "app": {
+    "name": "Foxy Weather"
+  },
+  "info": {
+    "MON": "LUN",
+    "TUE": "MAR",
+    "WED": "MER",
+    "THU": "JEU",
+    "FRI": "VEN",
+    "SAT": "SAM",
+    "SUN": "DIM",
+	
+	"calm": 			"Vent",
+	"lightAir": 		"Vent faible",
+	"lightBreeze": 		"Vent léger",
+	"gentleBreeze": 	"Vent faible",
+	"moderateBreeze": 	"Vent modéré",
+	"freshBreeze": 		"Un vent frais souffle",
+	"strongBreeze": 	"Un vent fort",
+	"moderateGale": 	"Forte de vent de tempête",
+	"freshGale": 		"Gale",
+	"strongGale": 		"Tourbillon",
+	"storm": 			"Violent Orage Vent",
+	"hurricane": 		"Vents d'ouragan",
+	
+	"northEast": 	"du nord-est",
+	"east": 		"de l'Est",
+	"southEast": 	"de sud-est",
+	"south": 		"du sud",
+	"southWest": 	"de sud-ouest",
+	"west": 		"de l'Ouest",
+	"northWest": 	"du nord-ouest",
+	"north": 		"de Nord"
+	
+  },
+  
+  "settings": {
+    "headline": 		"Réglages",
+    "getWeatherButton": "Rechercher dans le site",
+    "getCurrentLocation": "Utilisez emplacement actuel",
+	
+    "errorMsg": 		"La ville ou la ville que vous avez demandé n'a pu être trouvé. S'il vous plaît essayer une autre.",
+    "units": 			"Unité",
+    "languageSettings": "Langue",
+    "unitsMetric": 		"Celsius",
+    "unitsImperial": 	"Fahrenheit",
+    "backgroundLocation": "Photo de l'emplacement",
+    "backgroundBlank": 	"Pas d'image de fond",
+    "background": 		"Choisissez le fond"
+  }
+  
+}

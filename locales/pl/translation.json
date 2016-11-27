@@ -1,0 +1,53 @@
+{
+  "app": {
+    "name": "Foxy Weather"
+  },
+  "info": {
+    "MON": "Pn",
+    "TUE": "Wt",
+    "WED": "Śr",
+    "THU": "Cz",
+    "FRI": "Pt",
+    "SAT": "So",
+    "SUN": "Nd",
+	
+	"calm": 			"Wiatr",
+	"lightAir": 		"Low wiatr",
+	"lightBreeze": 		"Lekkie wiatry",
+	"gentleBreeze": 	"Słaby wiatr",
+	"moderateBreeze": 	"Umiarkowane wiatry",
+	"freshBreeze": 		"Świeży wiatr",
+	"strongBreeze": 	"Silny wiatr",
+	"moderateGale": 	"Bardzo silny wiatr",
+	"freshGale": 		"Burzliwy wiatr",
+	"strongGale": 		"Sztorm wiatr",
+	"storm": 			"Ciężki sztorm wiatr",
+	"hurricane": 		"huragan",
+	
+	"northEast": 	"z północnego wschodu",
+	"east": 		"ze wschodu",
+	"southEast": 	"od południowy wschód",
+	"south": 		"z południa",
+	"southWest": 	"z południowego zachodu",
+	"west": 		"z zachodu",
+	"northWest": 	"z północnego zachodu",
+	"north": 		"z północy"
+	
+  },
+  
+  "settings": {
+    "headline": 		"Ustawienia",
+    "getWeatherButton": "Wyszukiwanie w serwisie",
+    "getCurrentLocation": "Użyj bieżącej lokalizacji",
+	
+    "errorMsg": 		"Miasta, którego szukasz nie została odnaleziona. Prosimy spróbować innego.",
+    "units": 			"Jednostka",
+    "languageSettings": "Język",
+    "unitsMetric": 		"Celsius",
+    "unitsImperial": 	"Fahrenheit",
+    "backgroundLocation": "Zdjęcie z miejsca",
+    "backgroundBlank": 	"Brak obrazu tła",
+    "background": 		"Wybierz tło"
+  }
+  
+}

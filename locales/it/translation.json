@@ -1,0 +1,53 @@
+{
+  "app": {
+    "name": "Foxy Weather"
+  },
+  "info": {
+    "MON": "lun.",
+    "TUE": "mar.",
+    "WED": "mer.",
+    "THU": "gio.",
+    "FRI": "ven.",
+    "SAT": "sab.",
+    "SUN": "do.",
+	
+	"calm": 			"fiato",
+	"lightAir": 		"Bassa vento",
+	"lightBreeze": 		"Brezza leggera",
+	"gentleBreeze": 	"Venti moderato",
+	"moderateBreeze": 	"Venti moderati",
+	"freshBreeze": 		"Vento fresco",
+	"strongBreeze": 	"Forte vento",
+	"moderateGale": 	"Forte di vento tempestoso",
+	"freshGale": 		"Vento tempestoso",
+	"strongGale": 		"Vento tempestoso",
+	"storm": 			"Tempesta",
+	"hurricane": 		"Uragano",
+	
+	"northEast": 	"da nord-est",
+	"east": 		"da est",
+	"southEast": 	"da sud-est",
+	"south": 		"da sud",
+	"southWest": 	"da sud-ovest",
+	"west": 		"da ovest",
+	"northWest": 	"da nord-ovest",
+	"north": 		"da nord"
+	
+  },
+  
+  "settings": {
+    "headline": 		"Impostazioni",
+    "getWeatherButton": "Cerca nel sito",
+    "getCurrentLocation": "Utilizzare posizione corrente",
+	
+    "errorMsg": 		"La città che hai richiesto non è stato trovato. Prova con un altro.",
+    "units": 			"Unità",
+    "languageSettings": "Lingue",
+    "unitsMetric": 		"Celsius",
+    "unitsImperial": 	"Fahrenheit",
+    "backgroundLocation": "Foto dalla posizione",
+    "backgroundBlank": 	"Nessuna immagine di sfondo",
+    "background": 		"Seleziona sfondo"
+  }
+  
+}

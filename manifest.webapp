@@ -1,0 +1,67 @@
+{
+    "version": "1.1.3",
+    "name": "Foxy Weather",
+    "launch_path": "/index.html",
+    "description": "Weather forecast for your town with a picture of it as background. Translation available in english, spanish, portuguese, greek, hungarian, polish, german, french, italian, finnish, hindi and chinese. Shows temperature in Celsius or Fahrenheit.",
+    "icons": {
+        "32": "/images/icons/icon32.png",
+        "60": "/images/icons/icon60.png",
+        "90": "/images/icons/icon90.png",
+        "120": "/images/icons/icon120.png",
+        "128": "/images/icons/icon128.png",
+        "256": "/images/icons/icon256.png"
+    },
+    "developer": {
+        "name": "Dieter Willinger",
+        "url": "https://github.com/dwillinger/foxy-weather"
+    },
+    "installs_allowed_from": ["*"],
+    "default_locale": "en",
+    "permissions": {
+        "geolocation": {
+            "description" : "Marking out user location"
+        }
+    },
+	"locales": {
+		"de": {
+		  "description": "Wettervorhersage für Ihre Stadt mit einem Bild als Hintergrund. Übersetzungen in Englisch, Spanisch, Portugiesisch, Französisch, Italienisch, Deutsch, Polnisch, Finnisch und Chinesisch. Zeigt Temperatur in Celsius oder Fahrenheit."
+		},
+		"fi": {
+		  "description": "Sääennusteen kaupunki kuva siitä tausta. Käännös saatavilla Englanti, espanja, portugali, ranska, italia, saksa, puola, suomi ja kiina. Näyttää lämpötila Celsius tai Fahrenheit."
+		},
+		"fr": {
+		  "description": "Prévisions météo pour votre ville avec une photo d'elle comme toile de fond. Traduction disponible en anglais, espagnol, portugais, français, italien, allemand, polonais, finnois et chinois. Affiche la température en degrés Celsius ou Fahrenheit."
+		},
+		"es": {
+		  "description": "Previsión del tiempo para su ciudad con una foto de ella como fondo. Traducción disponible en Inglés, español, portugués, francés, italiano, alemán, polaco, finlandés y chino. Muestra la temperatura en grados Celsius o Fahrenheit."
+		},
+		"zh_cn": {
+		  "description": "天气预报镇，它作为背景的图片。可在英语，西班牙语，葡萄牙语，法语，意大利语，德语，波兰，芬兰和中国的翻译。在摄氏或华氏显示温度。"
+		},
+		"zh_tw": {
+		  "description": "天氣預報鎮，它作為背景的圖片。可在英語，西班牙語，葡萄牙語，法語，意大利語，德語，波蘭，芬蘭和中國的翻譯。在攝氏或華氏顯示溫度。"
+		},
+		"pl": {
+		  "description": "Prognoza pogody dla twojego miasta z obrazem nim jako tło. Tłumaczenie w języku angielskim, hiszpańskim, portugalskim, francuskim, włoskim, niemieckim, polskim, fińskim i chiński. Pokazuje temperaturę w stopniach Celsjusza lub Fahrenheita."
+		},
+		"pt": {
+		  "description": "Previsão do tempo para sua cidade com uma foto dele como pano de fundo. Tradução disponível em Inglês, espanhol, português, francês, italiano, alemão, polonês, finlandês e chinês. Mostra a temperatura em Celsius ou Fahrenheit."
+		},
+		"en": {
+		  "description": "Weather forecast for your town with a picture of it as background. Translation available in english, spanish, portuguese, french, italian, german, polish, finnish and chinese. Shows temperature in Celsius or Fahrenheit."
+		},		
+		"hi": {
+		  "description": "पृष्ठभूमि के रूप में यह की एक तस्वीर के साथ अपने शहर के लिए मौसम का पूर्वानुमान. में उपलब्ध अनुवाद अंग्रेजी, स्पेनिश, पुर्तगाली, फ्रेंच, इतालवी, जर्मन, पोलिश, फिनिश और चीनी. सेल्सियस या फेरनहाइट में तापमान दिखाता है."
+		},			
+		"hu": {
+		  "description": "Időjárás-előrejelzés a város egy kép róla, mint háttér. Fordítás angol, spanyol, portugál, francia, olasz, német, lengyel, finn és kínai. Megmutatja hőmérséklet Celsius vagy Fahrenheit."
+		},		
+		"el": {
+		  "description": "Πρόγνωση καιρού για την πόλη σας με μια εικόνα ως φόντο. Μετάφρασης στα αγγλικά, ισπανικά, πορτογαλικά, γαλλικά, ιταλικά, γερμανικά, πολωνικά, φινλανδική και κινεζική. Εμφανίζει τη θερμοκρασία σε βαθμούς Κελσίου ή Φαρενάιτ."
+		},
+		"it": {
+		  "description": "Previsioni meteo per la tua città con una foto di essa come sfondo. Traduzione disponibile in inglese, spagnolo, portoghese, francese, italiano, tedesco, polacco, finlandese e cinese. Mostra la temperatura in gradi Celsius o Fahrenheit."
+		}
+	}
+	
+}

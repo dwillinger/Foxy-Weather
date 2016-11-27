@@ -1,0 +1,50 @@
+{
+  "app": {
+    "name": "Foxy Weather"
+  },
+  "info": {
+    "MON": "सोमवार",
+    "TUE": "गलवार",
+    "WED": "बुधवार",
+    "THU": "बृहस्पतिवार",
+    "FRI": "शुक्रवार",
+    "SAT": "शनिवार",
+    "SUN": "रविवार",
+	"northEast": 	"पूर्वोत्तर से",
+	"east": 		"पूर्व से",
+	"southEast": 	"दक्षिण से",
+	"south": 		"दक्षिण से",
+	"southWest": 	"दक्षिण पश्चिम से",
+	"west": 		"पश्चिम से",
+	"northWest": 	"उत्तर पश्चिम से",
+	"north": 		"उत्तर से",
+	
+	"calm": 			"शांत",
+	"lightAir": 		"हल्की हवा",
+	"lightBreeze": 		"हल्की हवा",
+	"gentleBreeze": 	"सज्जन हवा",
+	"moderateBreeze": 	"मध्यम हवा",
+	"freshBreeze": 		"ताजा हवा",
+	"strongBreeze": 	"तेज़ हवा",
+	"moderateGale": 	"मध्यम आंधी",
+	"freshGale": 		"ताजा आंधी",
+	"strongGale": 		"मजबूत आंधी",
+	"storm": 			"तूफान",
+	"hurricane": 		"हरिकेन"
+	
+  },
+  "settings": {
+    "headline": 		"सेटिंग्स",
+    "getWeatherButton": "मौसम करें",
+    "getCurrentLocation": "वर्तमान स्थान का उपयोग करें",
+	
+    "errorMsg": 		"आप का अनुरोध शहर या शहर नहीं पाया जा सका. एक दूसरे की कोशिश करें.",
+    "units": 			"इकाई",
+    "languageSettings": "भाषा",
+    "unitsMetric": 		"सेल्सीयस",
+    "unitsImperial": 	"फ़ारेनहाइट",
+    "backgroundLocation": "स्थान से फोटो",
+    "backgroundBlank": 	"कोई पृष्ठभूमि तस्वीर",
+    "background": 		"पृष्ठभूमि"
+  }
+}

@@ -1,0 +1,414 @@
+/*------- Go Deeper -------*/
+animation: currentToLeft 0.4s forwards;
+@keyframes currentToLeft {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+animation: rightToCurrent 0.4s forwards;
+@keyframes rightToCurrent {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(0); }
+}
+/*------- Go Back -------*/
+animation: leftToCurrent 0.4s forwards;
+@keyframes leftToCurrent {
+  0%   { transform: translateX(-100%); }
+  100% { transform: translateX(0); }
+}
+animation: currentToRight 0.4s forwards;
+@keyframes currentToRight {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(100%); }
+}
+
+select {
+    border: 0.1rem solid #820000;
+	-moz-box-sizing: border-box;
+    border: 0.1rem solid #CCCCCC;
+    box-shadow: none;
+    display: block;
+	padding-top:0.3rem;
+	padding-button:0.3rem;
+    line-height: 4rem;
+    overflow: hidden;
+    padding-left: 1.2rem;
+    resize: none;
+	font: 300 1.4em "mozTT", sans-serif;
+
+}
+
+h2  {
+	font: normal 42px "PTSansNarrow", sans-serif;
+	text-shadow:
+	/*004b78  E66000*/
+	0 1px 0 #000 ,
+	0 -1px 0 #000 ,
+	1px 0 0 #000 ,
+	-1px 0 0 #000 ;
+	color:#fff;
+	border-bottom: 2px solid #E66000;
+	display:inline-block;
+}
+
+#main h2.cityname {
+	margin-bottom: 10px;
+	margin-left: 14px;
+}
+h3.bb-docs {
+    background-color: #F5F5F5;
+    border: 0.1rem solid #E8E8E8;
+    color: #666666;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    margin: -0.1rem 0 0;
+    padding: 0.4rem 1rem;
+}
+h3 {
+    font-size: 1.6rem;
+	font-weight: normal;
+	margin-bottom: 0px;
+}
+#content {
+background:transparent;
+z-index: 101;
+}
+#main {
+background:transparent;
+}
+html {
+background: #00539F; /* Old browsers */
+background: -moz-linear-gradient(top, #0095dd 0%, #00539f 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0095dd), color-stop(100%,#00539f)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #0095dd 0%,#00539f 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #0095dd 0%,#00539f 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #0095dd 0%,#00539f 100%); /* IE10+ */
+background: linear-gradient(to bottom, #0095dd 0%,#00539f 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0095dd', endColorstr='#00539f',GradientType=0 ); /* IE6-9 */
+}
+body {
+
+  
+  text-shadow:
+	0 1px 0 #000,
+	0 -1px 0 #000,
+	1px 0 0 #000,
+	-1px 0 0 #000;
+	color:#fff;
+
+  background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+  }
+  .weathericon {
+	width:36px;
+	height: auto;
+  }
+  .singleforecast {
+	display:block;
+	float:left;
+	margin: 0 auto;
+	padding-left:14px;
+	padding-right:14px;
+	text-align:center;
+  }
+  .day {
+  display:block;
+  margin: 0 auto;
+  }
+#location {
+	display:block;
+
+	}
+.seperator{
+	display:block;
+	float:left;
+	height: 100%;
+	border-left:1px dotted #d8d8d8;
+  }
+  #forecasts {
+      bottom: 74px;
+    position: fixed;
+  }
+  #fat {
+	width: 128px;
+	height: auto;
+  }
+  #mainIcon {
+  display:block;
+  	float:left;
+	margin-right: 12px;
+	
+
+  }
+   #description {
+   display:block;
+  }
+  #temp {
+	font-size: 50px;
+	padding-top:20px;
+  }  
+
+  #additionals {
+	display:block;
+	clear:both;
+  }
+  #noresult {
+	display:none;
+  }
+  
+/* ----------------------------------
+ * Progress + activities
+ * ---------------------------------- */
+
+/* Spinner */
+progress:not([value]) {
+  background: url(../images/progress_activity/images/ui/default.png) no-repeat center center / 100% auto;
+  animation: 0.9s rotate infinite steps(30);
+  width: 2.9rem;
+  height: 2.9rem;
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+progress:not([value])::-moz-progress-bar {
+ background: none;
+}
+
+/* Progress bar */
+progress[value] {
+  width: 100%;
+  background: #333;
+  border: none;
+  border-radius: 0.3rem;
+  height: 0.3rem;
+  display: block;
+}
+
+progress[value]::-moz-progress-bar {
+  background: #01c5ed;
+  border-radius: 0;
+}
+
+/* Progress bar */
+progress[value].pack-activity {
+  background-image: url(../images/progress_activity/images/ui/activity.png);
+  background-repeat: repeat;
+  background-size: auto 100%;
+  animation: 0.5s move infinite steps(15);
+}
+
+/* Labels */
+p[role="status"] {
+  padding: 0.5rem;
+  font-weight: 300;
+  font-size: 2.25rem;
+  line-height: 1.4em;
+  color: #fff;
+}
+
+p[role="status"] progress:not([value]) {
+  margin-right: 0.5rem;
+}
+
+p[role="status"] progress:not([value]) + span {
+  margin-bottom: 0;
+}
+
+p[role="status"] span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0.5rem;
+}
+
+/* Light Activity bar */
+progress[value].pack-activity.light {
+  background-color: #f4f4f4;
+}
+
+
+/* Animations */
+@keyframes rotate {
+  from { transform: rotate(1deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@keyframes move {
+  from { background-position: 0 0; }
+  to   { background-position: 1rem 0; }
+}
+
+.loader {
+position: fixed;
+top: 50%;
+left:50%;
+margin-left:-12px;
+margin-top:-12px;
+
+}
+.dontdisplay {
+	display:none;
+}
+
+.action-icon:before {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  content: "";
+  background: url(../images/buttons/icons/action_icons.png) no-repeat;
+  background-size: 3rem 192rem;
+}
+
+button.action-icon,
+a[role="button"].action-icon {
+  padding: 0 2rem 0 4rem;
+  text-align: left;
+  position: relative;
+  color: #717171;
+}
+
+button.action-icon:before,
+a[role="button"].action-icon:before {
+  left: 0.5rem;
+  top: 0.3rem;
+}
+
+section[role="region"] > header:first-child .icon.action-icon:before {
+  top: 1rem;
+  left: 0;
+}
+
+section[role="region"] > header:first-child menu[type="toolbar"] a:last-child .icon.action-icon:before, 
+section[role="region"] > header:first-child menu[type="toolbar"] button:last-child .icon.action-icon:before {
+  top: 1rem;
+  left: 0;
+}
+
+section[role="region"] > header:first-child > button .icon.action-icon:before, 
+section[role="region"] > header:first-child > a .icon.action-icon:before {
+  left: -0.5rem;
+}
+
+[role="toolbar"] button {
+  position: relative;
+}
+
+[role="toolbar"] .action-icon:before {
+  left: 1.25rem;
+  top: 0.5rem;
+}
+
+[data-type="list"] aside.icon {
+  top: 1.5rem;
+  height: 4.5rem;
+}
+
+[role="tablist"].bottom > [role="tab"] > a.action-icon:before {
+  top: 0.5rem;
+}
+
+[aria-disabled="true"] .action-icon:before,
+[disabled].action-icon:before {
+  opacity: 0.3;
+}
+
+.alarm-stop:before { background-position:  -0px -0px; }
+.back:before { background-position:  -0px -30px; }
+.bluetooth:before { background-position:  -0px -60px; }
+.bluetooth-transfer:before { background-position:  -0px -90px; }
+.bookmark:before { background-position:  -0px -120px; }
+.bookmarked:before { background-position:  -0px -150px; }
+.browser-back:before { background-position:  -0px -180px; }
+.browser-forward:before { background-position:  -0px -210px; }
+.calendar-agendaview:before { background-position:  -0px -240px; }
+.calendar-dayview:before { background-position:  -0px -270px; }
+.calendar-monthview:before { background-position:  -0px -300px; }
+.calendar-today:before { background-position:  -0px -330px; }
+.calendar-weekview:before { background-position:  -0px -360px; }
+.cancel:before { background-position:  -0px -390px; }
+.clock-addalarm:before { background-position:  -0px -420px; }
+.compose:before { background-position:  -0px -450px; }
+.contacts:before { background-position:  -0px -480px; }
+.copy:before { background-position:  -0px -510px; }
+.cut:before { background-position:  -0px -540px; }
+.delete:before { background-position:  -0px -570px; }
+.dismisskeyboard:before { background-position:  -0px -600px; }
+.download:before { background-position:  -0px -630px; }
+.downloaddark:before { background-position:  -0px -660px; }
+.editcontact:before { background-position:  -0px -690px; }
+.email-editlist:before { background-position:  -0px -720px; }
+.email-flag:before { background-position:  -0px -750px; }
+.email-forward:before { background-position:  -0px -780px; }
+.email-markread:before { background-position:  -0px -810px; }
+.email-markunread:before { background-position:  -0px -840px; }
+.email-reload:before { background-position:  -0px -870px; }
+.email-reply:before { background-position:  -0px -900px; }
+.email-replyall:before { background-position:  -0px -930px; }
+.email-send:before { background-position:  -0px -960px; }
+.email-share:before { background-position:  -0px -990px; }
+.email-sync:before { background-position:  -0px -1020px; }
+.forward:before { background-position:  -0px -1050px; }
+.lock:before { background-position:  -0px -1080px; }
+.menu:before { background-position:  -0px -1110px; }
+.move:before { background-position:  -0px -1140px; }
+.new:before { background-position:  -0px -1170px; }
+.paste:before { background-position:  -0px -1200px; }
+.search:before { background-position:  -0px -1230px; }
+.selectall:before { background-position:  -0px -1260px; }
+.settings:before { background-position:  -0px -1290px; }
+.sms:before { background-position:  -0px -1332px; }
+.snooze:before { background-position:  -0px -1350px; }
+.unlock:before { background-position:  -0px -1380px; }
+.user:before { background-position:  -0px -1410px; }
+.ut-airplanemode:before { background-position:  -0px -1440px; }
+.ut-airplanemode:hover:before,
+.ut-airplanemode:active:before { background-position:  -0px -1470px; }
+.ut-bluetooth:before { background-position:  -0px -1500px; }
+.ut-bluetooth:hover:before,
+.ut-bluetooth:active:before { background-position:  -0px -1530px; }
+.ut-settings:before { background-position:  -0px -1560px; }
+.ut-settings:hover:before,
+.ut-settings:active:before { background-position:  -0px -1830px; }
+.ut-settings:active:before { background-position:  -0px -1560px; }
+.ut-settings-data:before { background-position:  -0px -1590px; }
+.ut-settings-data-2g:before { background-position:  -0px -1620px; }
+.ut-settings-data-3g:before { background-position:  -0px -1650px; }
+.ut-settings-data-4g:before { background-position:  -0px -1680px; }
+.ut-settings-data-e:before { background-position:  -0px -1710px; }
+.ut-settings-data-hp:before { background-position:  -0px -1740px; }
+.ut-settings-data-h:before { background-position:  -0px -1770px; }
+.ut-settings-data-o:before { background-position:  -0px -1800px; }
+.ut-wifi:before { background-position:  -0px -1860px; }
+.ut-wifi:hover:before,
+.ut-wifi:active:before { background-position:  -0px -1890px; }
+
+.settingsSelect {
+	margin:1em 0.6em 1.4em;
+}
+
+/* CSS animations */
+/*------- Go Deeper -------*/
+animation: currentToLeft 0.4s forwards;
+@keyframes currentToLeft {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+animation: rightToCurrent 0.4s forwards;
+@keyframes rightToCurrent {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(0); }
+}
+/*------- Go Back -------*/
+animation: leftToCurrent 0.4s forwards;
+@keyframes leftToCurrent {
+  0%   { transform: translateX(-100%); }
+  100% { transform: translateX(0); }
+}
+animation: currentToRight 0.4s forwards;
+@keyframes currentToRight {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(100%); }
+}

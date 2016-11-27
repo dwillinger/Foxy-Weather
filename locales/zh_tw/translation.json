@@ -1,0 +1,53 @@
+{
+  "app": {
+    "name": "Foxy Weather"
+  },
+  "info": {
+    "MON": "星期一",
+    "TUE": "星期二",
+    "WED": "星期三",
+    "THU": "星期四",
+    "FRI": "星期五",
+    "SAT": "星期六",
+    "SUN": "星期天",
+	
+	"calm": 			"風",
+	"lightAir": 		"低風",
+	"lightBreeze": 		"光風",
+	"gentleBreeze": 	"弱風",
+	"moderateBreeze": 	"適度的風",
+	"freshBreeze": 		"清新之風",
+	"strongBreeze": 	"大風",
+	"moderateGale": 	"和風",
+	"freshGale": 		"八級風",
+	"strongGale": 		"烈風",
+	"storm": 			"風暴",
+	"hurricane": 		"颶風",
+	
+	"northEast": 	"- 東北",
+	"east": 		"- 東方",
+	"southEast": 	"- 東南",
+	"south": 		"- 南",
+	"southWest": 	"- 西南",
+	"west": 		"- 西方",
+	"northWest": 	"- 西方",
+	"north": 		"- 北"
+	
+  },
+  
+  "settings": {
+    "headline": 		"Foxy Weather 設置",
+    "getWeatherButton": "站內搜索",
+    "getCurrentLocation": "Use current location",
+	
+    "errorMsg": 		"找不到您要求的城鎮或城市。請嘗試另一個",
+    "units": 			"選擇單位",
+    "languageSettings": "選擇語言",
+    "unitsMetric": 		"Celsius",
+    "unitsImperial": 	"Fahrenheit",
+    "backgroundLocation": "從位置顯示圖片作為背景",
+    "backgroundBlank": 	"無背景圖片",
+    "background": 		"選擇背景"
+  }
+  
+}
